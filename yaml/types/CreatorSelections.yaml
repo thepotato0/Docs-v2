@@ -12,7 +12,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Select a instance
   - Name: SelectChild
     ReturnType: nil
     Parameters:
@@ -23,7 +23,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Select all children of the instance
   - Name: Deselect
     ReturnType: nil
     Parameters:
@@ -34,7 +34,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Deselect the instance
   - Name: SelectOnly
     ReturnType: nil
     Parameters:
@@ -45,14 +45,14 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Deselect all, then select the instance
   - Name: DeselectAll
     ReturnType: nil
     Parameters: []
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Deselect all instances
   - Name: GroupInstances
     ReturnType: Dynamic
     Parameters:
@@ -67,7 +67,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Group instances into a Model or PhysicalModel
   - Name: UngroupModel
     ReturnType: table
     Parameters:
@@ -78,7 +78,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Ungroup Model or PhysicalModel
   - Name: UngroupModels
     ReturnType: table
     Parameters:
@@ -89,7 +89,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Ungroup Models or PhysicalModels
   - Name: DuplicateInstances
     ReturnType: table
     Parameters:
@@ -100,7 +100,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Duplicate Instances
   - Name: GroupSelected
     ReturnType: nil
     Parameters:
@@ -111,28 +111,28 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Group selected as Model or Physical
   - Name: UngroupSelected
     ReturnType: nil
     Parameters: []
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Ungroup selected models
   - Name: DeleteSelected
     ReturnType: nil
     Parameters: []
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Delete selected instances
   - Name: DuplicateSelected
     ReturnType: nil
     Parameters: []
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Duplicate selected instances
   - Name: HasSelected
     ReturnType: boolean
     Parameters:
@@ -143,7 +143,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Check if instance has been selected
 Events: []
 IsStatic: false
 IsAbstract: false

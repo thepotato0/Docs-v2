@@ -12,7 +12,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Play animation
   - Name: PlayOneshotAnimation
     ReturnType: nil
     Parameters:
@@ -23,23 +23,23 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Play oneshot animation
   - Name: StopAnimation
     ReturnType: nil
     Parameters: []
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Stop current animation
   - Name: StopOneshotAnimation
     ReturnType: nil
     Parameters: []
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Abort current oneshot animation
 Events: []
 IsStatic: false
 IsAbstract: false
 IsInstantiatable: true
-Description: Missing Documentation
+Description: WIP class

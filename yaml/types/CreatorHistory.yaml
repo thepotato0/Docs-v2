@@ -12,7 +12,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Creates new action
   - Name: AddDoCallback
     ReturnType: nil
     Parameters:
@@ -23,7 +23,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Add do callback
   - Name: AddUndoCallback
     ReturnType: nil
     Parameters:
@@ -34,14 +34,14 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Add undo callback
   - Name: CommitAction
     ReturnType: nil
     Parameters: []
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Commit the current action
 Events: []
 IsStatic: false
 IsAbstract: false

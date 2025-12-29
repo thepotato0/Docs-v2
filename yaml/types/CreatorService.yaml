@@ -6,25 +6,25 @@ Properties:
     IsAccessibleByScripts: true
     IsReadOnly: true
     IsObsolete: false
-    Description: Missing Documentation
+    Description: The interface
   - Name: Clipboard
     Type: CreatorClipboard
     IsAccessibleByScripts: true
     IsReadOnly: true
     IsObsolete: false
-    Description: Missing Documentation
+    Description: The clipboard
   - Name: CurrentGame
     Type: Game
     IsAccessibleByScripts: true
     IsReadOnly: true
     IsObsolete: false
-    Description: Missing Documentation
+    Description: Current active game
   - Name: LocalTestActive
     Type: boolean
     IsAccessibleByScripts: true
     IsReadOnly: true
     IsObsolete: false
-    Description: Missing Documentation
+    Description: Returns true if local test is active
 Methods: []
 Events:
   - Name: LocalTestStarted

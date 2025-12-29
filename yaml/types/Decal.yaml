@@ -12,7 +12,7 @@ Properties:
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
-    Description: Missing Documentation
+    Description: Energy multiplier for the decal.
   - Name: Color
     Type: Color
     IsAccessibleByScripts: true

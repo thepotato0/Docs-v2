@@ -24,13 +24,13 @@ Properties:
     IsAccessibleByScripts: true
     IsReadOnly: true
     IsObsolete: false
-    Description: Missing Documentation
+    Description: The origin point
   - Name: End
     Type: Vector3
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
-    Description: Missing Documentation
+    Description: The ending point
   - Name: Volume
     Type: number
     IsAccessibleByScripts: true

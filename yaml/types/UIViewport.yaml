@@ -6,4 +6,4 @@ Events: []
 IsStatic: false
 IsAbstract: false
 IsInstantiatable: true
-Description: Missing Documentation
+Description: UIViewport is a UI object that allows displaying 3D content on 2D UI
