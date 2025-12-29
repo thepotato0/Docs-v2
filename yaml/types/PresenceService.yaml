@@ -6,13 +6,13 @@ Properties:
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
-    Description: Missing Documentation
+    Description: Current activity status.
   - Name: CoverImage
     Type: PTImageAsset
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
-    Description: Missing Documentation
+    Description: Activity cover image.
 Methods:
   - Name: ResetTimer
     ReturnType: nil
@@ -20,7 +20,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Reset the running timer for this activity.
 Events: []
 IsStatic: true
 IsAbstract: false

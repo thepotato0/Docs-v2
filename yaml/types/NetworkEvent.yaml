@@ -6,7 +6,9 @@ Properties:
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
-    Description: Missing Documentation
+    Description: Determines if this network event should send messages reliably.
+      Recommended to be off if you're passing lot of data that doesn't need to
+      arrive reliably.
 Methods:
   - Name: InvokeServer
     ReturnType: nil
@@ -67,4 +69,6 @@ Events:
 IsStatic: false
 IsAbstract: false
 IsInstantiatable: true
-Description: Missing Documentation
+Description: NetworkEvents are events that can be called to communicate between
+  server and client. NetMessages are the class used for sharing data between
+  server and client when sending NetworkEvents.

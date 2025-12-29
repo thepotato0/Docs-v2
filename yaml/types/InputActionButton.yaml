@@ -12,7 +12,8 @@ Properties:
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
-    Description: Returns true if any of the button in the collection is currently being pressed.
+    Description: Returns true if any of the button in the collection is currently
+      being pressed.
   - Name: Weight
     Type: number
     IsAccessibleByScripts: true

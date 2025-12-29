@@ -6,13 +6,13 @@ Properties:
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
-    Description: Missing Documentation
+    Description: Target place path.
   - Name: MaxPlayers
     Type: number
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
-    Description: Missing Documentation
+    Description: How much player slot should the new server allocates for.
 Methods:
   - Name: New
     ReturnType: NewServerRequestData
@@ -20,7 +20,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
-    Description: Missing Documentation
+    Description: Creates a new `NewServerRequestData`
 Events: []
 IsStatic: false
 IsAbstract: false

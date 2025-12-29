@@ -14,7 +14,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
-    Description: Create new empty button
+    Description: Create new button of this keycode
   - Name: New
     ReturnType: InputButton
     Parameters:

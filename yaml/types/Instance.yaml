@@ -12,7 +12,8 @@ Properties:
     IsAccessibleByScripts: false
     IsReadOnly: false
     IsObsolete: false
-    Description: Determine if children is editable, this is to be used if this instance is a Linked model. Only used in creator.
+    Description: Determine if children is editable, this is to be used if this
+      instance is a Linked model. Only used in creator.
   - Name: Tags
     Type: table
     IsAccessibleByScripts: true

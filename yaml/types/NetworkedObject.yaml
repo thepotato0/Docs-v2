@@ -24,7 +24,8 @@ Properties:
     IsAccessibleByScripts: true
     IsReadOnly: true
     IsObsolete: false
-    Description: Returns networked ID of this object. Networked ID are always unique per network session.
+    Description: Returns networked ID of this object. Networked ID are always unique
+      per network session.
   - Name: ObjectID
     Type: string
     IsAccessibleByScripts: true
@@ -36,7 +37,8 @@ Properties:
     IsAccessibleByScripts: true
     IsReadOnly: true
     IsObsolete: false
-    Description: Returns true if this object exists in network, false if this object is spawned by the local client.
+    Description: Returns true if this object exists in network, false if this object
+      is spawned by the local client.
 Methods:
   - Name: IsA
     ReturnType: boolean
@@ -48,7 +50,8 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Returns whether or not the instance is the specified class, this also checks for inheritance.
+    Description: Returns whether or not the instance is the specified class, this
+      also checks for inheritance.
   - Name: Clone
     ReturnType: NetworkedObject
     Parameters:
@@ -100,4 +103,5 @@ Events:
 IsStatic: false
 IsAbstract: true
 IsInstantiatable: false
-Description: NetworkedObject is a base class for all object that's synchronized by the network.
+Description: NetworkedObject is a base class for all object that's synchronized
+  by the network.
