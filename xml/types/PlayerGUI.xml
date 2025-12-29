@@ -5,5 +5,5 @@
   <IsStatic>true</IsStatic>
   <IsAbstract>false</IsAbstract>
   <IsInstantiatable>false</IsInstantiatable>
-  <Description>Missing Documentation</Description>
+  <Description>PlayerGUI is a class that contains all custom GUIs.</Description>
 </ClassDef>

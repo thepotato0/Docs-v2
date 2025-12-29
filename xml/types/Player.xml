@@ -8,7 +8,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>true</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>The unique ID of the player.</Description>
   </Properties>
   <Properties>
     <Name>CanMove</Name>
@@ -16,7 +16,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines whether the player can move.</Description>
   </Properties>
   <Properties>
     <Name>SprintSpeed</Name>
@@ -24,7 +24,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines the sprinting speed of the player.</Description>
   </Properties>
   <Properties>
     <Name>Stamina</Name>
@@ -32,7 +32,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines the current stamina of the player.</Description>
   </Properties>
   <Properties>
     <Name>MaxStamina</Name>
@@ -40,7 +40,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines the maximum stamina of the player.</Description>
   </Properties>
   <Properties>
     <Name>UseStamina</Name>
@@ -48,7 +48,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines whether the player uses stamina.</Description>
   </Properties>
   <Properties>
     <Name>StaminaRegen</Name>
@@ -56,7 +56,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines the rate at which the player's stamina regenerates.</Description>
   </Properties>
   <Properties>
     <Name>StaminaBurn</Name>
@@ -64,7 +64,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines the rate at which the player's stamina depletes while sprinting.</Description>
   </Properties>
   <Properties>
     <Name>RespawnTime</Name>
@@ -72,7 +72,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines the time the player has to wait before respawning.</Description>
   </Properties>
   <Properties>
     <Name>UseHeadTurning</Name>
@@ -80,7 +80,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines whether the player uses head turning.</Description>
   </Properties>
   <Properties>
     <Name>UseBubbleChat</Name>
@@ -88,7 +88,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines whether the player uses bubble chat.</Description>
   </Properties>
   <Properties>
     <Name>AutoLoadAppearance</Name>
@@ -96,7 +96,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines whether the player's appearance is automatically loaded.</Description>
   </Properties>
   <Properties>
     <Name>NetworkPing</Name>
@@ -104,7 +104,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>true</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>The amount of network latency (ping) the player is experiencing.</Description>
   </Properties>
   <Properties>
     <Name>IsAdmin</Name>
@@ -112,7 +112,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>true</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines whether the player is an administrator.</Description>
   </Properties>
   <Properties>
     <Name>IsCreator</Name>
@@ -120,7 +120,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>true</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines whether the player is the creator of the game.</Description>
   </Properties>
   <Properties>
     <Name>ChatColor</Name>
@@ -128,7 +128,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines the chat color of the player.</Description>
   </Properties>
   <Properties>
     <Name>IsLocal</Name>
@@ -136,7 +136,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>true</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines whether the player is the local player.</Description>
   </Properties>
   <Properties>
     <Name>IsClimbing</Name>
@@ -144,7 +144,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>true</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines whether the player is currently climbing.</Description>
   </Properties>
   <Properties>
     <Name>ClimbingTruss</Name>
@@ -152,7 +152,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>true</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines the truss the player is currently climbing.</Description>
   </Properties>
   <Properties>
     <Name>UserPlatform</Name>
@@ -160,7 +160,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>true</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines the platform the player is using.</Description>
   </Properties>
   <Properties>
     <Name>Inventory</Name>
@@ -168,7 +168,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>true</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>The inventory of the player.</Description>
   </Properties>
   <Methods>
     <Name>Jump</Name>
@@ -176,7 +176,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Makes the player jump.</Description>
   </Methods>
   <Methods>
     <Name>Kick</Name>
@@ -190,7 +190,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Kicks the player from the game with the specified reason.</Description>
   </Methods>
   <Methods>
     <Name>UnequipTool</Name>
@@ -198,7 +198,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Unequips the currently equipped tool of the player.</Description>
   </Methods>
   <Methods>
     <Name>Respawn</Name>
@@ -206,7 +206,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Respawns the player.</Description>
   </Methods>
   <Methods>
     <Name>ResetAppearance</Name>
@@ -214,7 +214,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Resets the player's appearance to the default.</Description>
   </Methods>
   <Events>
     <Name>Chatted</Name>
@@ -232,5 +232,5 @@
   <IsStatic>false</IsStatic>
   <IsAbstract>false</IsAbstract>
   <IsInstantiatable>false</IsInstantiatable>
-  <Description>Missing Documentation</Description>
+  <Description>Player represents a user playing the game.</Description>
 </ClassDef>

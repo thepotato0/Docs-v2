@@ -8,7 +8,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>true</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>The player who is currently playing the game.</Description>
   </Properties>
   <Properties>
     <Name>PlayerCollisionEnabled</Name>
@@ -16,7 +16,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines whether or not collisions between players are enabled.</Description>
   </Properties>
   <Properties>
     <Name>PlayersCount</Name>
@@ -24,7 +24,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>true</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>The number of players currently in the game.</Description>
   </Properties>
   <Methods>
     <Name>GetPlayers</Name>
@@ -32,7 +32,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Returns a table containing all the players currently in the game.</Description>
   </Methods>
   <Methods>
     <Name>GetPlayer</Name>
@@ -46,7 +46,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Returns the player with the specified username.</Description>
   </Methods>
   <Methods>
     <Name>GetPlayerByID</Name>
@@ -60,7 +60,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Returns the player with the specified user ID.</Description>
   </Methods>
   <Events>
     <Name>PlayerAdded</Name>
@@ -81,5 +81,5 @@
   <IsStatic>true</IsStatic>
   <IsAbstract>false</IsAbstract>
   <IsInstantiatable>false</IsInstantiatable>
-  <Description>Missing Documentation</Description>
+  <Description>Players is the container class for all Player instances.</Description>
 </ClassDef>

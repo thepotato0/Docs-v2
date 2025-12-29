@@ -8,7 +8,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>true</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines whether the player has photo mode enabled.</Description>
   </Properties>
   <Properties>
     <Name>UsePostProcessing</Name>
@@ -16,7 +16,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>true</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines whether the player has post-processing effects enabled.</Description>
   </Properties>
   <Events>
     <Name>SettingChanged</Name>
@@ -28,7 +28,7 @@
       <Name>setTo</Name>
       <Type>any</Type>
     </Arguments>
-    <Description>Missing Documentation</Description>
+    <Description>Fired when a user preference setting is changed.</Description>
   </Events>
   <IsStatic>true</IsStatic>
   <IsAbstract>false</IsAbstract>

@@ -20,7 +20,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Prompts the specified player to purchase the asset with the given asset ID.</Description>
   </Methods>
   <Methods>
     <Name>OwnsItemAsync</Name>
@@ -40,10 +40,10 @@
     <IsAsync>true</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Checks asynchronously if the specified player owns the asset with the given asset ID.</Description>
   </Methods>
   <IsStatic>true</IsStatic>
   <IsAbstract>false</IsAbstract>
   <IsInstantiatable>false</IsInstantiatable>
-  <Description>Missing Documentation</Description>
+  <Description>Service responsible for handling in-game purchases and ownership verification.</Description>
 </ClassDef>

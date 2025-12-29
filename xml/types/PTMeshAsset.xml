@@ -13,5 +13,5 @@
   <IsStatic>false</IsStatic>
   <IsAbstract>false</IsAbstract>
   <IsInstantiatable>true</IsInstantiatable>
-  <Description>A messh asset that&apos;s loaded from Polytoria.</Description>
+  <Description>A mesh asset that&apos;s loaded from Polytoria.</Description>
 </ClassDef>
