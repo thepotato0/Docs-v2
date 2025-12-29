@@ -16,7 +16,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>true</IsStatic>
-    <Description>Create new color range with 2 default points</Description>
+    <Description>Create color series by this color range</Description>
   </Methods>
   <Methods>
     <Name>New</Name>

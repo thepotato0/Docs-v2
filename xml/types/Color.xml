@@ -40,7 +40,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>true</IsStatic>
-    <Description>Creates a new black color.</Description>
+    <Description>Creates a new Color with the set R, G, B and A values</Description>
   </Methods>
   <Methods>
     <Name>New</Name>
@@ -54,7 +54,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>true</IsStatic>
-    <Description>Creates a new Color with an R, G and B value of `d`</Description>
+    <Description>Creates a new Color with the set R, G, B and A values</Description>
   </Methods>
   <Methods>
     <Name>New</Name>
@@ -80,7 +80,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>true</IsStatic>
-    <Description>Creates a new Color with the set R, G and B values and an alpha value of 1</Description>
+    <Description>Creates a new Color with the set R, G, B and A values</Description>
   </Methods>
   <Methods>
     <Name>New</Name>

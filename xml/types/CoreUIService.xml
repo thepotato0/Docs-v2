@@ -24,7 +24,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Determines whether or not the player's health bar is visible.</Description>
+    <Description>Determines whether or not the player&apos;s health bar is visible.</Description>
   </Properties>
   <Properties>
     <Name>UseLeaderboard</Name>
