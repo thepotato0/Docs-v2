@@ -127,51 +127,6 @@ Methods:
     IsObsolete: false
     IsStatic: false
     Description: Missing Documentation
-  - Name: SetAttachmentTransformOverride
-    ReturnType: nil
-    Parameters:
-      - Name: attachment
-        Type: CharacterAttachmentEnum
-        IsOptional: false
-        DefaultValue: ""
-      - Name: overrideThis
-        Type: boolean
-        IsOptional: false
-        DefaultValue: ""
-    IsAsync: false
-    IsObsolete: false
-    IsStatic: false
-    Description: Missing Documentation
-  - Name: SetAttachmentPositionOverride
-    ReturnType: nil
-    Parameters:
-      - Name: attachment
-        Type: CharacterAttachmentEnum
-        IsOptional: false
-        DefaultValue: ""
-      - Name: pos
-        Type: Vector3
-        IsOptional: false
-        DefaultValue: ""
-    IsAsync: false
-    IsObsolete: false
-    IsStatic: false
-    Description: Missing Documentation
-  - Name: SetAttachmentRotationOverride
-    ReturnType: nil
-    Parameters:
-      - Name: attachment
-        Type: CharacterAttachmentEnum
-        IsOptional: false
-        DefaultValue: ""
-      - Name: rot
-        Type: Vector3
-        IsOptional: false
-        DefaultValue: ""
-    IsAsync: false
-    IsObsolete: false
-    IsStatic: false
-    Description: Missing Documentation
 Events:
   - Name: RagdollStarted
     Arguments: ""

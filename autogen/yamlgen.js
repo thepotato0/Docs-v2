@@ -133,7 +133,7 @@ for (const e of data.Enums) {
     }
 
     // Add enum description
-    obj.Description = existingEnumDescription || "Missing Documentation";
+    obj.Description = existingEnumDescription || "";
 
     // Add options
     for (const option of e.Options) {

@@ -43,7 +43,7 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     Description: The color of the placeholder text.
-  - Name: ReadonlyColor
+  - Name: ReadOnlyColor
     Type: Color
     IsAccessibleByScripts: true
     IsReadOnly: false
