@@ -1,10 +1,10 @@
 Name: UILayoutAlignment
 InternalName: UILayoutAlignmentEnum
 Options:
-  - Name: Left
+  - Name: Start
     Description: ""
   - Name: Center
     Description: ""
-  - Name: Right
+  - Name: End
     Description: ""
 Description: ""

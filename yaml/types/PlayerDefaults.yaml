@@ -55,6 +55,12 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     Description: Determines whether the player uses stamina.
+  - Name: StaminaEnabled
+    Type: boolean
+    IsAccessibleByScripts: false
+    IsReadOnly: false
+    IsObsolete: false
+    Description: Legacy value for stamina.
   - Name: Stamina
     Type: number
     IsAccessibleByScripts: true

@@ -7,6 +7,12 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     Description: Determines whether the tool can be dropped by the player.
+  - Name: IconImage
+    Type: ImageAsset
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    Description: The icon for this tool, appears in inventory.
   - Name: Holder
     Type: NPC
     IsAccessibleByScripts: true
