@@ -85,6 +85,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Missing Documentation
+  - Name: AbsolutePosition
+    Type: Vector2
+    IsAccessibleByScripts: true
+    IsReadOnly: true
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
   - Name: AbsoluteSize
     Type: Vector2
     IsAccessibleByScripts: true

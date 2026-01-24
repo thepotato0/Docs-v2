@@ -64,10 +64,16 @@ Methods:
     IsObsolete: false
     IsStatic: false
     Description: Check if instance has been selected
-Events: []
-IsStatic: false
+Events:
+  - Name: Selected
+    Arguments: ""
+    Description: Missing Documentation
+  - Name: Deselected
+    Arguments: ""
+    Description: Missing Documentation
+IsStatic: true
 IsAbstract: false
 IsInstantiatable: false
-StaticAlias: null
+StaticAlias: Selections
 Description: CreatorSelections is an object that manages selections in the game
   instance. This class is only available in the creator.

@@ -16,8 +16,8 @@ Methods:
     Parameters:
       - Name: msg
         Type: NetMessage
-        IsOptional: false
-        DefaultValue: ""
+        IsOptional: true
+        DefaultValue: null
       - Name: _
         Type: any
         IsOptional: true
@@ -31,12 +31,12 @@ Methods:
     Parameters:
       - Name: msg
         Type: NetMessage
-        IsOptional: false
-        DefaultValue: ""
+        IsOptional: true
+        DefaultValue: null
       - Name: player
         Type: Player
-        IsOptional: false
-        DefaultValue: ""
+        IsOptional: true
+        DefaultValue: null
     IsAsync: false
     IsObsolete: false
     IsStatic: false
@@ -46,8 +46,8 @@ Methods:
     Parameters:
       - Name: msg
         Type: NetMessage
-        IsOptional: false
-        DefaultValue: ""
+        IsOptional: true
+        DefaultValue: null
     IsAsync: false
     IsObsolete: false
     IsStatic: false

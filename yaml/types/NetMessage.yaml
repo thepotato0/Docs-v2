@@ -122,6 +122,21 @@ Methods:
     IsObsolete: false
     IsStatic: false
     Description: Adds an Instance value to the message with the specified key.
+  - Name: AddBuffer
+    ReturnType: nil
+    Parameters:
+      - Name: key
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+      - Name: buffer
+        Type: buffer
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
   - Name: GetString
     ReturnType: string
     Parameters:
@@ -210,6 +225,17 @@ Methods:
     IsObsolete: false
     IsStatic: false
     Description: Gets an Instance value from the message with the specified key.
+  - Name: GetBuffer
+    ReturnType: buffer
+    Parameters:
+      - Name: key
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
   - Name: New
     ReturnType: NetMessage
     Parameters: []

@@ -15,6 +15,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Determines the max range that this object can be dragged.
+  - Name: UseDragForce
+    Type: boolean
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
   - Name: PermissionMode
     Type: GrabbablePermissionModeEnum
     IsAccessibleByScripts: true

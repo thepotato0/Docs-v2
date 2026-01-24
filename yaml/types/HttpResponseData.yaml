@@ -30,6 +30,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: The response payload returned by the server as a string buffer.
+  - Name: Buffer
+    Type: buffer
+    IsAccessibleByScripts: true
+    IsReadOnly: true
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
 Methods: []
 Events: []
 IsStatic: false

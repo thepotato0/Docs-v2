@@ -104,6 +104,97 @@ Methods:
     IsObsolete: false
     IsStatic: false
     Description: Sends a PATCH request to the specified url.
+  - Name: GetBufferAsync
+    ReturnType: buffer
+    Parameters:
+      - Name: url
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+      - Name: headers
+        Type: table
+        IsOptional: true
+        DefaultValue: null
+    IsAsync: true
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: PostBufferAsync
+    ReturnType: buffer
+    Parameters:
+      - Name: url
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+      - Name: body
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+      - Name: headers
+        Type: table
+        IsOptional: true
+        DefaultValue: null
+    IsAsync: true
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: PutBufferAsync
+    ReturnType: buffer
+    Parameters:
+      - Name: url
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+      - Name: body
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+      - Name: headers
+        Type: table
+        IsOptional: true
+        DefaultValue: null
+    IsAsync: true
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: DeleteBufferAsync
+    ReturnType: buffer
+    Parameters:
+      - Name: url
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+      - Name: body
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+      - Name: headers
+        Type: table
+        IsOptional: true
+        DefaultValue: null
+    IsAsync: true
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: PatchBufferAsync
+    ReturnType: buffer
+    Parameters:
+      - Name: url
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+      - Name: body
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+      - Name: headers
+        Type: table
+        IsOptional: true
+        DefaultValue: null
+    IsAsync: true
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
 Events: []
 IsStatic: true
 IsAbstract: false

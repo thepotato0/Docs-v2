@@ -3,7 +3,7 @@ BaseType: Instance
 Properties:
   - Name: Source
     Type: string
-    IsAccessibleByScripts: false
+    IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false

@@ -15,13 +15,6 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Determines whether this object can collide with other objects.
-  - Name: CanTouch
-    Type: boolean
-    IsAccessibleByScripts: true
-    IsReadOnly: false
-    IsObsolete: false
-    IsStatic: false
-    Description: Missing Documentation
   - Name: Velocity
     Type: Vector3
     IsAccessibleByScripts: true

@@ -1,0 +1,13 @@
+Name: AddonToolItem
+BaseType: null
+Properties: []
+Methods: []
+Events:
+  - Name: Pressed
+    Arguments: ""
+    Description: Missing Documentation
+IsStatic: false
+IsAbstract: false
+IsInstantiatable: false
+StaticAlias: null
+Description: Missing Documentation

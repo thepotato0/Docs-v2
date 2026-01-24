@@ -3,7 +3,7 @@ BaseType: Instance
 Properties: []
 Methods:
   - Name: ReadBytesFromPath
-    ReturnType: string
+    ReturnType: buffer
     Parameters:
       - Name: path
         Type: string
@@ -21,7 +21,7 @@ Methods:
         IsOptional: false
         DefaultValue: ""
       - Name: bytes
-        Type: string
+        Type: buffer
         IsOptional: false
         DefaultValue: ""
     IsAsync: true
@@ -36,7 +36,7 @@ Methods:
     IsStatic: false
     Description: List all files in the project
   - Name: ReadBytesFromID
-    ReturnType: string
+    ReturnType: buffer
     Parameters:
       - Name: id
         Type: string

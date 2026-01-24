@@ -1,0 +1,21 @@
+Name: CreatorAddons
+BaseType: Instance
+Properties: []
+Methods:
+  - Name: Register
+    ReturnType: AddonObject
+    Parameters:
+      - Name: identifier
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+Events: []
+IsStatic: true
+IsAbstract: false
+IsInstantiatable: false
+StaticAlias: Addons
+Description: Missing Documentation
