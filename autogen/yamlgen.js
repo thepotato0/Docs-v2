@@ -15,6 +15,40 @@ if (!fs.existsSync(yamlEnumPath)) {
 
 const data = JSON.parse(fs.readFileSync("def.json", "utf-8"))
 
+// Track current classes and enums
+const currentClasses = new Set(data.Classes.map(c => c.Name))
+const currentEnums = new Set(data.Enums.map(e => e.Name))
+
+// Clean up removed classes
+if (fs.existsSync(yamlAPIPath)) {
+    const existingFiles = fs.readdirSync(yamlAPIPath)
+    for (const file of existingFiles) {
+        if (file.endsWith('.yaml')) {
+            const className = path.basename(file, '.yaml')
+            if (!currentClasses.has(className)) {
+                const filePath = path.join(yamlAPIPath, file)
+                fs.unlinkSync(filePath)
+                console.log(`Removed obsolete class: ${className}`)
+            }
+        }
+    }
+}
+
+// Clean up removed enums
+if (fs.existsSync(yamlEnumPath)) {
+    const existingFiles = fs.readdirSync(yamlEnumPath)
+    for (const file of existingFiles) {
+        if (file.endsWith('.yaml')) {
+            const enumName = path.basename(file, '.yaml')
+            if (!currentEnums.has(enumName)) {
+                const filePath = path.join(yamlEnumPath, file)
+                fs.unlinkSync(filePath)
+                console.log(`Removed obsolete enum: ${enumName}`)
+            }
+        }
+    }
+}
+
 // Process Classes
 for (const c of data.Classes) {
     let yamlPath = path.join(yamlAPIPath, c.Name + ".yaml")

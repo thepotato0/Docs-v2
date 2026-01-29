@@ -48,7 +48,7 @@ Methods:
         IsOptional: true
         DefaultValue: "10000"
       - Name: ignoreList
-        Type: table
+        Type: "{ Instance }"
         IsOptional: true
         DefaultValue: null
     IsAsync: false
@@ -57,7 +57,7 @@ Methods:
     Description: Casts a ray from origin with a specified direction and returns a
       RayResult for the first hit object.
   - Name: RaycastAll
-    ReturnType: table
+    ReturnType: "{ RayResult }"
     Parameters:
       - Name: origin
         Type: Vector3
@@ -72,7 +72,7 @@ Methods:
         IsOptional: true
         DefaultValue: "1000"
       - Name: ignoreList
-        Type: table
+        Type: "{ Instance }"
         IsOptional: true
         DefaultValue: null
     IsAsync: false
@@ -81,7 +81,7 @@ Methods:
     Description: Casts a ray from origin with a specified direction and returns a
       RayResult array for all hit objects.
   - Name: OverlapSphere
-    ReturnType: table
+    ReturnType: "{ Instance }"
     Parameters:
       - Name: origin
         Type: Vector3
@@ -92,7 +92,7 @@ Methods:
         IsOptional: false
         DefaultValue: ""
       - Name: ignoreList
-        Type: table
+        Type: "{ Instance }"
         IsOptional: true
         DefaultValue: null
     IsAsync: false
@@ -101,7 +101,7 @@ Methods:
     Description: Returns a list of instances intersecting with the sphere in the
       given position and radius.
   - Name: OverlapBox
-    ReturnType: table
+    ReturnType: "{ Instance }"
     Parameters:
       - Name: pos
         Type: Vector3
@@ -116,7 +116,7 @@ Methods:
         IsOptional: false
         DefaultValue: ""
       - Name: ignoreList
-        Type: table
+        Type: "{ Instance }"
         IsOptional: true
         DefaultValue: null
     IsAsync: false

@@ -8,6 +8,28 @@ const iconDataPath = path.join(__dirname, "../", "docs/theme/.icons", "polytoria
 const yamlEnumPath = path.join(__dirname, "../", "yaml", "enums")
 const mdEnumPath = path.join(__dirname, "../", "docs/api", "enums")
 
+// Cleanup md (excluding index.md files)
+if (fs.existsSync(mdAPIPath)) {
+    const files = fs.readdirSync(mdAPIPath)
+    for (const file of files) {
+        if (file !== 'index.md') {
+            const filePath = path.join(mdAPIPath, file)
+            fs.rmSync(filePath, { recursive: true, force: true })
+        }
+    }
+}
+
+if (fs.existsSync(mdEnumPath)) {
+    const files = fs.readdirSync(mdEnumPath)
+    for (const file of files) {
+        if (file !== 'index.md') {
+            const filePath = path.join(mdEnumPath, file)
+            fs.rmSync(filePath, { recursive: true, force: true })
+        }
+    }
+}
+
+// Create directories
 if (!fs.existsSync(mdAPIPath)) {
     fs.mkdirSync(mdAPIPath, { recursive: true })
 }

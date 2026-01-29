@@ -24,6 +24,13 @@ Methods:
     IsObsolete: false
     IsStatic: false
     Description: Select all children of the instance
+  - Name: GetSelected
+    ReturnType: "{ Instance }"
+    Parameters: []
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
   - Name: Deselect
     ReturnType: nil
     Parameters:

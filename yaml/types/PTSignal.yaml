@@ -27,7 +27,7 @@ Methods:
   - Name: __tostring
     ReturnType: string
     Parameters:
-      - Name: signal
+      - Name: _
         Type: PTSignal
         IsOptional: false
         DefaultValue: ""

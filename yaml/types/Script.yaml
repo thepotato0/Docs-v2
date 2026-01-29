@@ -60,6 +60,17 @@ Methods:
     IsObsolete: false
     IsStatic: false
     Description: Calls a function in the script asynchronously with the given arguments.
+  - Name: LinkWithScriptFile
+    ReturnType: nil
+    Parameters:
+      - Name: scriptPath
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
 Events: []
 IsStatic: false
 IsAbstract: true

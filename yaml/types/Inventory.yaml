@@ -1,5 +1,5 @@
 Name: Inventory
-BaseType: Hidden
+BaseType: HiddenBase
 Properties: []
 Methods: []
 Events: []

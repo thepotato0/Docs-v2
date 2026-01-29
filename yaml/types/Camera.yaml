@@ -173,7 +173,7 @@ Methods:
         IsOptional: false
         DefaultValue: ""
       - Name: ignoreList
-        Type: table
+        Type: "{ Instance }"
         IsOptional: true
         DefaultValue: null
       - Name: maxDistance
@@ -194,7 +194,7 @@ Methods:
         IsOptional: false
         DefaultValue: ""
       - Name: ignoreList
-        Type: table
+        Type: "{ Instance }"
         IsOptional: true
         DefaultValue: null
       - Name: maxDistance

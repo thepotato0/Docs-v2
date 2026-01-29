@@ -42,7 +42,7 @@ Methods:
     IsStatic: false
     Description: Sets the network authority of this object to the specified player.
   - Name: GetTouching
-    ReturnType: table
+    ReturnType: "{ Physical }"
     Parameters: []
     IsAsync: false
     IsObsolete: false

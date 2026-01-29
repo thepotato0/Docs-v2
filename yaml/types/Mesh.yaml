@@ -64,6 +64,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Indicates whether an animation is currently playing on the mesh.
+  - Name: Loading
+    Type: boolean
+    IsAccessibleByScripts: true
+    IsReadOnly: true
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
 Methods:
   - Name: PlayAnimation
     ReturnType: nil
@@ -96,20 +103,23 @@ Methods:
     IsStatic: false
     Description: Stops the specified animation on the mesh.
   - Name: GetAnimations
-    ReturnType: table
+    ReturnType: "{ string }"
     Parameters: []
     IsAsync: false
     IsObsolete: false
     IsStatic: false
     Description: Gets a list of all animations available on the mesh.
   - Name: GetAnimationInfo
-    ReturnType: table
+    ReturnType: "{ MeshAnimationInfo }"
     Parameters: []
     IsAsync: false
     IsObsolete: false
     IsStatic: false
     Description: Missing Documentation
-Events: []
+Events:
+  - Name: Loaded
+    Arguments: ""
+    Description: Missing Documentation
 IsStatic: false
 IsAbstract: false
 IsInstantiatable: true

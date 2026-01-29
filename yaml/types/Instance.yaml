@@ -17,15 +17,22 @@ Properties:
     Description: Determine if children is editable, this is to be used if this
       instance is a Linked model. Only used in creator.
   - Name: Tags
-    Type: table
+    Type: "{ string }"
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
     Description: Tags associated with this instance.
+  - Name: Archivable
+    Type: boolean
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
 Methods:
   - Name: GetDescendants
-    ReturnType: table
+    ReturnType: "{ Instance }"
     Parameters: []
     IsAsync: false
     IsObsolete: false
@@ -80,7 +87,7 @@ Methods:
     IsStatic: false
     Description: Missing Documentation
   - Name: GetChildrenWithTag
-    ReturnType: table
+    ReturnType: "{ Instance }"
     Parameters:
       - Name: tag
         Type: string
@@ -128,14 +135,14 @@ Methods:
     IsStatic: false
     Description: Move children to specified index
   - Name: GetChildren
-    ReturnType: table
+    ReturnType: "{ Instance }"
     Parameters: []
     IsAsync: false
     IsObsolete: false
     IsStatic: false
     Description: Gets all children of this instance.
   - Name: GetChildrenOfClass
-    ReturnType: table
+    ReturnType: "{ Instance }"
     Parameters:
       - Name: className
         Type: string

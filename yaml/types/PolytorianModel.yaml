@@ -161,6 +161,17 @@ Methods:
     IsObsolete: false
     IsStatic: false
     Description: Missing Documentation
+  - Name: SetAnimationOverrideTo
+    ReturnType: nil
+    Parameters:
+      - Name: to
+        Type: boolean
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
   - Name: SetBoneOverridePosition
     ReturnType: nil
     Parameters:

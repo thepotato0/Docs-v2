@@ -46,6 +46,28 @@ Methods:
     IsObsolete: false
     IsStatic: false
     Description: Create new mesh from Polytoria with the target ID
+  - Name: GetFileLinkByPath
+    ReturnType: FileLinkAsset
+    Parameters:
+      - Name: path
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: GetFileLinkByID
+    ReturnType: FileLinkAsset
+    Parameters:
+      - Name: id
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
 Events: []
 IsStatic: true
 IsAbstract: false

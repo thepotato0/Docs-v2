@@ -65,14 +65,14 @@ Methods:
     IsStatic: false
     Description: Removes the point at the specified index from the color series.
   - Name: GetOffsets
-    ReturnType: table
+    ReturnType: "{ number }"
     Parameters: []
     IsAsync: false
     IsObsolete: false
     IsStatic: false
     Description: Missing Documentation
   - Name: GetColors
-    ReturnType: table
+    ReturnType: "{ Color }"
     Parameters: []
     IsAsync: false
     IsObsolete: false

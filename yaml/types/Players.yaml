@@ -24,7 +24,7 @@ Properties:
     Description: The number of players currently in the game.
 Methods:
   - Name: GetPlayers
-    ReturnType: table
+    ReturnType: "{ Player }"
     Parameters: []
     IsAsync: false
     IsObsolete: false

@@ -1,5 +1,5 @@
 Name: Temporary
-BaseType: Hidden
+BaseType: ServerHidden
 Properties: []
 Methods: []
 Events: []

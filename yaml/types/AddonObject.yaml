@@ -34,7 +34,10 @@ Methods:
     IsObsolete: false
     IsStatic: false
     Description: Missing Documentation
-Events: []
+Events:
+  - Name: CleanupReceived
+    Arguments: ""
+    Description: Missing Documentation
 IsStatic: false
 IsAbstract: false
 IsInstantiatable: false

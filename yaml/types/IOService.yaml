@@ -13,6 +13,17 @@ Methods:
     IsObsolete: false
     IsStatic: false
     Description: Read the file data from path
+  - Name: ReadTextFromPath
+    ReturnType: string
+    Parameters:
+      - Name: path
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
   - Name: WriteBytesToPath
     ReturnType: nil
     Parameters:
@@ -24,12 +35,27 @@ Methods:
         Type: buffer
         IsOptional: false
         DefaultValue: ""
-    IsAsync: true
+    IsAsync: false
     IsObsolete: false
     IsStatic: false
     Description: Write data to file in the project
+  - Name: WriteTextToPath
+    ReturnType: nil
+    Parameters:
+      - Name: path
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+      - Name: txt
+        Type: string
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
   - Name: ListProjectFiles
-    ReturnType: table
+    ReturnType: "{ string }"
     Parameters: []
     IsAsync: false
     IsObsolete: false

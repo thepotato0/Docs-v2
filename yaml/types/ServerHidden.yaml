@@ -1,5 +1,5 @@
 Name: ServerHidden
-BaseType: Hidden
+BaseType: HiddenBase
 Properties: []
 Methods: []
 Events: []

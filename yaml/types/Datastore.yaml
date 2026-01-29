@@ -16,7 +16,7 @@ Methods:
         Type: string
         IsOptional: false
         DefaultValue: ""
-    IsAsync: false
+    IsAsync: true
     IsObsolete: false
     IsStatic: false
     Description: Retrieves a value from the datastore asynchronously using the
@@ -32,7 +32,7 @@ Methods:
         Type: any
         IsOptional: false
         DefaultValue: ""
-    IsAsync: false
+    IsAsync: true
     IsObsolete: false
     IsStatic: false
     Description: Stores a value in the datastore asynchronously using the specified key.
@@ -43,14 +43,18 @@ Methods:
         Type: string
         IsOptional: false
         DefaultValue: ""
-    IsAsync: false
+    IsAsync: true
     IsObsolete: false
     IsStatic: false
     Description: Removes a value from the datastore asynchronously using the specified key.
-Events:
-  - Name: Loaded
-    Arguments: ""
-    Description: Fires when this datastore has been loaded
+  - Name: Disconnect
+    ReturnType: nil
+    Parameters: []
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+Events: []
 IsStatic: false
 IsAbstract: false
 IsInstantiatable: false

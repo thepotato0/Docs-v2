@@ -43,7 +43,7 @@ Methods:
     ReturnType: nil
     Parameters:
       - Name: plrs
-        Type: table
+        Type: "{ Player }"
         IsOptional: false
         DefaultValue: ""
       - Name: to
@@ -73,7 +73,7 @@ Methods:
     ReturnType: nil
     Parameters:
       - Name: players
-        Type: table
+        Type: "{ Player }"
         IsOptional: false
         DefaultValue: ""
       - Name: accessID

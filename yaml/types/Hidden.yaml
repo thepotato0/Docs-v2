@@ -1,10 +1,10 @@
 Name: Hidden
-BaseType: Instance
+BaseType: HiddenBase
 Properties: []
 Methods: []
 Events: []
-IsStatic: false
+IsStatic: true
 IsAbstract: false
 IsInstantiatable: false
-StaticAlias: null
+StaticAlias: Hidden
 Description: Hidden is a object used for hiding instances.

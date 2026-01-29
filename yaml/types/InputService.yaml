@@ -83,7 +83,7 @@ Methods:
     ReturnType: Vector3
     Parameters:
       - Name: ignoreList
-        Type: table
+        Type: "{ Instance }"
         IsOptional: true
         DefaultValue: null
     IsAsync: false
@@ -172,13 +172,17 @@ Events:
     Description: Fires when gamepad has been disconnected
   - Name: KeyDown
     Arguments:
-      Name: keycode
-      Type: KeyCodeEnum
+      - Name: keycode
+        Type: KeyCodeEnum
+      - Name: gameFocused
+        Type: boolean
     Description: Fires when key has been pressed
   - Name: KeyUp
     Arguments:
-      Name: keycode
-      Type: KeyCodeEnum
+      - Name: keycode
+        Type: KeyCodeEnum
+      - Name: gameFocused
+        Type: boolean
     Description: Fires when key has been released
   - Name: AxisValueChanged
     Arguments:

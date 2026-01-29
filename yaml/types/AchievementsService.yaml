@@ -44,7 +44,7 @@ Methods:
         Type: number
         IsOptional: false
         DefaultValue: ""
-    IsAsync: false
+    IsAsync: true
     IsObsolete: false
     IsStatic: false
     Description: Check if player of ID has the achievement, asynchronously.

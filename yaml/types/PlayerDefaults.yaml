@@ -1,5 +1,5 @@
 Name: PlayerDefaults
-BaseType: Hidden
+BaseType: HiddenBase
 Properties:
   - Name: MaxHealth
     Type: number
