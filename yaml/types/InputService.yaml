@@ -221,7 +221,8 @@ Events:
       - Name: keycode
         Type: KeyCodeEnum
       - Name: value
-        Type: float
+        Type: number
+    Description: Fires when analog input has been changed
 IsStatic: true
 IsAbstract: false
 IsInstantiatable: false
